@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    line-height: 1.5em;
+    font-family: monospace;
+}
+
+#header {
+	font-family: monospace;
+
+}
+
+#logo {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+#showButton {
+    padding: 1rem;
+    margin: 1rem;
+   	color: black;
+    font-weight: bold;
+    background: orange;
+    border: none;
+    color: #fff;
+    font-family: inherit;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+#showHeader {
+	color: blue;
+	font-family: inherit;
+}
