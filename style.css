@@ -1,67 +1,96 @@
-body {
-    margin: 0;
-    color: black;
-    text-align: center;
-    font-family: monospace;
-    line-height: 1.5em;
-    font-family: monospace;
+nav li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#header {
-  font-family: monospace;
+nav ul {
+    float: right;
+}
+
+nav h1 {
+    float:  left;
+}
+
+header {
 
 }
 
-#logo {
-    max-width: 500px;
-    width: 100%;
-    height: auto;
+div#welcome-box {
+    clear:  both;
+    text-align:  center;
+    word-break: break-all;
 }
 
-#showButton {
-    padding: 1rem;
-    margin: 1rem;
-    color: black;
-    font-weight: bold;
-    background: orange;
-    border: none;
-    color: #fff;
-    font-family: inherit;
+div#welcome-box h4 {
+    font-size:  40px;
+    margin-bottom:  5px;
 }
 
-ul {
-    list-style-type: square;
-    list-style-position: inside;
+div#welcome-box p {
+    text-align:  center;
+    margin:  auto;
+    margin-bottom:  10px;
+    width:  70%;
 }
 
-#showHeader {
-  color: blue;
-  font-family: inherit;
+
+div#welcome-button {
+    display: flex;
+    justify-content: center;
+
 }
 
- /* Style all font awesome icons */
-.fa {
-  padding: 0.5%;
-  width: 5%;
+button {
+    font-size:  22px;
+}
+
+h5 {
+    text-align:  center;
+    font-size:  50px;
+    margin:  50px; 
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  width: 20%;
   text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
 }
 
 
-.fa:hover {
-  opacity: 0.7;
+.social-media-features {
+    text-align: center;
 }
 
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+.social-media-photos {
+    text-align: center;
+    color:  red;
+    padding-bottom:  100px;
 }
 
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-} 
+
+
+
+
 
